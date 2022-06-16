@@ -1,0 +1,53 @@
+body {
+    /* A4 210x297 mm */
+    /* max-width: 210mm; */
+}
+
+table {
+    /* Переопределение свойств в GM */
+    border-spacing: 2pt !important;
+    border-collapse: unset !important;
+}
+
+.rl-report-form {
+
+}
+
+.full-width {
+    min-width: 100%;
+}
+
+.align-right {
+    text-align: right !important;
+}
+
+.pt-5 {
+    padding-top: 15px;
+}
+
+.pr-1 {
+    padding-right: 10px;
+}
+
+.rl-table th {
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+.rl-table :is(th, td) {
+    padding: 0.5em 1em;
+}
+
+.report-parameter-dict {
+    max-width: 40%;
+    word-wrap: break-word;
+    border: 2px none #D2E0FA;
+    border-left-style: solid;
+    padding-left: 1em;
+}
+
+.error-message {
+    border-style: solid;
+    text-align: center;
+    padding: 5px;
+}
